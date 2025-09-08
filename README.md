@@ -1,3 +1,5 @@
+Being tested for an internal educator use case, accurate as of 8 Sep 2025
+---
 <p align="center">
   <a href="https://librechat.ai">
     <img src="client/public/assets/logo.svg" height="256">
