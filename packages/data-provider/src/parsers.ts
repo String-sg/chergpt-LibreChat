@@ -17,7 +17,6 @@ import {
   compactPluginsSchema,
   compactAssistantSchema,
 } from './schemas';
-import { bedrockInputSchema } from './bedrock';
 import { alternateName } from './config';
 
 type EndpointSchema =
