@@ -3,16 +3,7 @@ import { EModelEndpoint } from 'librechat-data-provider';
 import type { TEndpointsConfig } from 'librechat-data-provider';
 
 const defaultConfig: TEndpointsConfig = {
-  [EModelEndpoint.azureOpenAI]: null,
-  [EModelEndpoint.azureAssistants]: null,
-  [EModelEndpoint.assistants]: null,
-  [EModelEndpoint.agents]: null,
-  [EModelEndpoint.openAI]: null,
-  [EModelEndpoint.chatGPTBrowser]: null,
-  [EModelEndpoint.gptPlugins]: null,
   [EModelEndpoint.google]: null,
-  [EModelEndpoint.anthropic]: null,
-  [EModelEndpoint.custom]: null,
 };
 
 const endpointsConfig = atom<TEndpointsConfig>({
